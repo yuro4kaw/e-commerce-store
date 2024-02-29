@@ -26,7 +26,7 @@ const CheckoutNow = ({
     image: urlFor(image).url(),
     price_id: price_id,
   };
-  return <Button onClick={() => buyNow(product.price_id)}>Checkout now</Button>;
+  return <Button variant={"secondary"} onClick={() => buyNow(product.price_id)}>Checkout now</Button>;
 };
 
 export default CheckoutNow;
