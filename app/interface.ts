@@ -15,4 +15,5 @@ export interface detailedProduct {
   categoryName: string;
   name: string;
   description: string;
+  price_id: string;
 }
